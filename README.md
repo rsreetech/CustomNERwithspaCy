@@ -11,30 +11,51 @@ These tsv files each word is annotated using the BIO format.
 
 
 A few lines from tran.tsv in BC5CDR-disease dataset looks like: 
+
 Selegiline O
+
 induced O 
+
 postural B 
+
 hypotension I 
+
 in O 
+
 Parkinson B
+
 ' I
+
 s I 
+
 disease I 
+
 : O 
+
 a O 
+
 longitudinal O
+
 study O
+
 on O
+
 the O 
+
 effects O 
+
 of O 
+
 drug O 
+
 withdrawal O 
+
 . O 
 
 Here it is of the format: word \t label\n 
 
 for instance: postural B hypotension I
+
 here B-> Begin entity, I-> inside entity and O-> outside entity
 
 Let us build a custom named entity(disease) recognition model with spaCy
