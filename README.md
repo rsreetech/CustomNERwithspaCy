@@ -1,4 +1,5 @@
 Let us look at how we can create a custom Named Entity Recognition model with spaCy. 
+
 Here i will be creating a clinical named entity recognition model which can recognize the disease names from clinical text 
 For this i have extracted annotated clinical text from the following github repo:https://github.com/dmis-lab/biobert 
 They provide annotated clinical text here: Named Entity Recognition: (17.3 MB), 8 datasets on biomedical named entity recognition(https://drive.google.com/open?id=1OletxmPYNkz2ltOr9pyT0b0iBtUWxslh) 
