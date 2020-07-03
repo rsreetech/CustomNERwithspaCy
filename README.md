@@ -59,6 +59,7 @@ for instance: postural B hypotension I
 here B-> Begin entity, I-> inside entity and O-> outside entity
 
 Let us build a custom named entity(disease) recognition model with spaCy
+
 CustomNERwithSpacy  python notebook has the code for training such a model
 
 
